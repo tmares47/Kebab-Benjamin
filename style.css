@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff8e7;
+  color: #333333;
+}
+
+header {
+  background-color: #c62828;
+  color: white;
+  padding: 8px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+
+header {
+  padding: 10px;
+}
+
+header img {
+  width: 50px;
+  vertical-align: middle;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 30px;
+}
+
+
+nav {
+  margin-top: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffcc00;
+  text-decoration: underline;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  color: #c62828;
+  border-bottom: 2px solid #ffcc00;
+  padding-bottom: 5px;
+}
+
+ul {
+  background-color: white;
+  border: 1px solid #dddddd;
+  padding: 15px 30px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: #c62828;
+}
+
+a:hover {
+  color: #ff9800;
+}
+
+footer {
+  background-color: #333333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+table {
+  width: 100%;
+  background-color: white;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 8px;
+  border-bottom: 1px solid #dddddd;
+}
+
+td:last-child {
+  text-align: right;
+  font-weight: bold;
+  color: #c62828;
+}
+
+tr:hover {
+  background-color: #fff3cd;
+}
+
+.nazev-stranky {
+  margin: 0 0 5px 0;
+  font-size: 18px;
+  color: #ffcc00;
+}
+
+.jidlo {
+  width: 220px;
+  border: 3px solid #ffcc00;
+  transition: transform 0.3s;
+}
+
+.jidlo:hover {
+  transform: scale(1.3);
+}
+
+.banner {
+  width: 100%;
+  max-width: 600px;
+}
+
+.logo {
+  position: absolute;
+  left: 20px;
+  top: 5px;
+  width: 70px;
+}
+
+.oteviraci-doba {
+  max-width: 500px;
+  margin: 0 auto;
+  font-size: 22px;
+  background-color: #ffcc00;
+  border: 4px solid #c62828;
+}
+
+.oteviraci-doba td {
+  padding: 15px;
+  color: #333333;
+}
+
+.mapa {
+  width: 100%;
+  height: 350px;
+  border: 3px solid #c62828;
+}

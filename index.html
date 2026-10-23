@@ -1,48 +1,66 @@
 <!DOCTYPE html>
 <html lang="cs">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jak hostovat web přes GitHub Pages</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 700px;
-            margin: 40px auto;
-            padding: 0 15px;
-            line-height: 1.6;
-        }
-        li { margin-bottom: 15px; }
-        code { 
-            background: #eee; 
-            padding: 3px; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Úvod | Kebab Benjamin</title>
+  <link rel="icon" href="favicon.svg">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Jak hostovat web přes GitHub Pages?</h1>
-    <ol>
-        <li>
-            Přihlaš se na svůj GitHub účet.
-        </li>
-        <li>
-            Otevři <a href="https://github.com/chlubna25/jak_hostovat">vzorový repozitář</a>.
-            Klikni na <b>Fork</b>, změň název repozitáře
-            a potvrď <b>Create fork</b>.
-        </li>
-        <li>
-            Ve svém repozitáři klikni na <b>+</b>, zvol <b>Upload files</b> a nahraj své soubory webu.
-        </li>
-        <li>
-            Otevři <b>Settings → Pages</b>. U položky <b>Source</b> vyber
-            <b>Deploy from a branch</b>. Nastav <code>main</code>, <code>/(root)</code>
-            a klikni na <b>Save</b>.
-        </li>
-        <li>
-            Za pár minut najdeš web na adrese
-            <code>https://TVUJ-UCET.github.io/NÁZEV-REPA/</code>.
-        </li>
-    </ol>
+  <header>
+    <img src="logo.png" alt="Logo Kebab Benjamin" class="logo">
+    <h1>Kebab Benjamin</h1>
+    <p class="nazev-stranky">Úvod</p>
+    <nav>
+      <a href="index.html">Úvod</a>
+      <a href="menu.html">Menu</a>
+      <a href="o-nas.html">O nás</a>
+      <a href="kontakt.html">Kontakt</a>
+    </nav>
+  </header>
 
-    <p><b>Pozor:</b> Pro bezplatné GitHub Pages musí být repozitář veřejný (<b>Public</b>).</p>
+  <main>
+    <img src="banner.jpg" alt="Nejlepší kebab ve městě">
+
+    <h2>Vítejte v Kebab Benjamin</h2>
+    <p>Hledáte poctivý kebab v Králově Poli? Jste na správném místě. U nás nenajdete žádné mražené polotovary. Maso marinujeme 24 hodin, omáčky děláme sami a placky pečeme každé ráno.</p>
+    <p>Zastavte se na rychlý oběd, po škole nebo pozdě večer. Máme otevřeno každý den až do půlnoci.</p>
+
+    <h2>Proč právě my</h2>
+    <ul>
+      <li>Maso marinované 24 hodin podle vlastního receptu</li>
+      <li>Domácí česneková, pálivá a jogurtová omáčka</li>
+      <li>Čerstvá zelenina každý den</li>
+      <li>Vegetariánský falafel a halloumi</li>
+      <li>Otevřeno denně do 24:00</li>
+    </ul>
+
+    <h2>Nejoblíbenější jídla</h2>
+
+    <h3>Kebab v placce – 149 Kč</h3>
+    <img src="kebab-placka.jpg" alt="Kebab v placce" class="jidlo">
+    <p>Naše klasika. Maso, zelenina a omáčka podle výběru v teplé placce.</p>
+
+    <h3>Kebab box s hranolky – 169 Kč</h3>
+    <img src="kebab-box.jpg" alt="Kebab box" class="jidlo">
+    <p>Pro velký hlad. Hranolky, maso a omáčka v jednom boxu.</p>
+
+    <h3>Falafel talíř – 179 Kč</h3>
+    <img src="falafel.jpg" alt="Falafel" class="jidlo">
+    <p>Pro vegetariány. Domácí falafel, salát a jogurtová omáčka.</p>
+
+    <p><a href="menu.html" class="tlacitko">Celé menu</a></p>
+
+    <h2>Otevírací doba</h2>
+    <table class="oteviraci-doba">
+      <tr><td>Pondělí – Pátek</td><td>10:00 – 24:00</td></tr>
+      <tr><td>Sobota – Neděle</td><td>11:00 – 24:00</td></tr>
+  </table>
+  </main>
+
+  <footer>
+    <p>© 2026 Kebab Benjamin · Pionýrská, Brno-Královo Pole</p>
+  </footer>
 </body>
 </html>
